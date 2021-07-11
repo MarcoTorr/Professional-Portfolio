@@ -25,7 +25,7 @@ If there are comments or tips, let me know.
 
 Screenshot preview:
 
-<img src="/Users/marcotorres/Desktop/Professional-Portfolio/assets/Images/Screen.jpg">
+<img src="assets/Images/Screen.jpg">
 
 Deployment link:
 
