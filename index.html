@@ -1,96 +1,473 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <title>Professional Portafolio</title>
-</head>
-
-<body>
-    <div class="header">
-        <h1>Marco Torres</h1>
-        <div>
-            <ul>
-                <li>
-                    <a class= "header-aboutme" href="#about-me">About me</a>
-                </li>
-                <li>
-                    <a class="header-projects" href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a class="header-skills" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="header-contact" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="before-content"></div>
-    <div class="content">
-        <div id="about-me" class="about-me">
-            <img  src="https://scontent.fqro3-1.fna.fbcdn.net/v/t1.6435-9/60435606_2203298463088657_6305702951981678592_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeGPxZyb456qy0IsdUsdK1R74vIx3k3butfi8jHeTdu615RB0VgdiKeSyiNINFtVs-T-Zy3w7oj4a8HgaHbPGLLn&_nc_ohc=rzlWslB8htIAX_4Hp1l&_nc_ht=scontent.fqro3-1.fna&oh=9ee8869a1634913b6b7b32291bcf75de&oe=60ED4C1B" alt="" class="middle-pic" />
-            <h2>About Me</h2>
-            <p>
-                Hello! My name is Marco and I am 25 years old. I finished my bachelor in International Business at ITESM university in 2019. I worked 5 years in an international NGO called AIESEC where I developed sales, team management and marketing skills. My last three years I worked creating and editing audiovisual projects, advising exportation projects from Mexico to Colombia and from Netherlands to China and rebranding my family business in private security. I got interested in technology since I was at the middle of my bachelor and wanted to learn the skills required to not only be user but develop and create technology tools.
-            </p>
-        </div>
-        <div id="projects" class="projects">
-            <h3>Projects</h3>
-            <div class="first-project">
-                <h1>Landing Page Horiseon</h1>
-                    <a href="https://marcotorr.github.io/Code-Refactor-V2/"><img src="assets/Images/Horiseon.jpg" alt="Shows image of landing page for Horiseon client "/></a> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Marco Torres | Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Marco Torres <br>Portfolio</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <br>
-            <br>
-            <div>
-                <ul class="list-projects">
-                    <li class="second-project">
-                        <h1>Password Generator</h1>
-                        <img src="https://i1.wp.com/whatismyip.network/wp-content/uploads/2019/09/Strong-Password-Generator.jpg?fit=1280%2C721&ssl=1" alt="Shows image of password generator created"/>
-                    </li>
-                    <li class="third-project">
-                        <h1>Third Project</h1>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwYb3YG6aVTMrssLRUCHjDoJOOykMEzivYxA&usqp=CAU" alt="Shows image of deepweb platform created in my dreams"/>
-                    </li>    
-                    <li class="fourth-project">
-                        <h1>Fourth Project</h1>
-                        <img src="https://www.esan.edu.pe/conexion/actualidad/2020/02/21/1200x630_tiendas_virtuales.jpg" alt="Shows image of virtual shop created for a supermarket chain"/>             
-                    </li>   
-                </ul>
-            </div>        
-        </div>
-        <div id="skills" class="skills">
-            <h3>Skills</h3>
-            <p>
-                I have a set of skills in:
-            </p>
-            <br>
-            <img src="https://img.icons8.com/color/452/javascript--v1.png" />
-            <img src="https://pics.freeicons.io/uploads/icons/png/13213538951581395613-512.png" class="software-skills" />
-            <img src="https://img.icons8.com/fluent/452/adobe-premiere-pro.png" class="software-skills" />
-        </div>
-    </div>
-        <div id="contact" class="contact">
-            <h3>Contact</h3>
-            <div>
-                <ul>
-                    <li>
-                        <p>Phone number: +52 5579294319</p>
-                    </li>
-                    <li>
-                        <p>Email: marco.torres@aiesec.net</p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/MarcoTorr">Github</a>
-                    </li>
-                </ul>
-            </div>    
-        </div>
-    <div class="footer">
-        <h2>Made by Marco Torres</h2>
-    </div>
-</body>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-black text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/ProfPic.jpg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Marco Torres</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                   
+                  
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Front & Back End Developer - Digital Marketing - Sales Manager</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-black mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                   
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Parota del Carmen</p>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/ParotaDelCarmen.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Weather Dashboard</p>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/WeatherDash.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Password Generator</p>
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/PassGen.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Day Organizer</p>
 
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/DaySchedule.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Horiseon Website</p>
+
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/HoriseonWebsite.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <p class="mb-0" style="text-align: center; font-weight: 700; font-size:large;">Simple Quiz</p>
+
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Quiz.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-black mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-black">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                   
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-12 ms-auto"><p class="lead" style="text-align: justify;">I finished my bachelor in International Business at ITESM university in 2019. I worked 5 years in an international NGO called AIESEC where I performed in sales, team management and digital marketing. My last three years I worked creating and editing audiovisual projects, advising exportation projects from Mexico to Colombia and from Netherlands to China and rebranding my family business in private security. I got interested in technology since I was at the middle of my bachelor and wanted to learn the skills required to not only be user but develop and create technology tools. Today, I work in the areas of logistics, sales & marketing, GPS systems and full-stack development.</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="./assets/Documents/MarcoTorresCV.pdf">
+                        <i class="fas fa-download me-2"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-black mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                   
+                </div>
+                
+                <!-- Contact Section Form
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input--
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input--
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input--
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input--
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted--
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form--
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button--
+                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Email</h4>
+                        <p class="lead mb-0">
+                            
+                            <a href = "mailto: marco.turris@outlook.com">marco.turris@outlook.com</a>
+                            
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <!--<a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>-->
+                        <!--<a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>-->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/marcotorres96/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/MarcoTorr"><i class="fab fa-fw fa-github"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Phone Number</h4>
+                        <p class="lead mb-0">
+                            
+                            <a href = "https://wa.me/525579294319">+52 55 7929 4319</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Marco Torres 2021</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Parota del Carmen</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                       
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ParotaDelCarmen.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">E-commerce developed from scratch for Parota del Carmen in Cancun, Mexico.</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='http://parotadelcarmen.herokuapp.com/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/DanielRg3/Second-Project';">
+                                        Visit Repository
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Weather Dashboard</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                       
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/WeatherDash.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Created a Weather Dashboard tool to consult the weather in any city using a third-party API.</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://marcotorr.github.io/Weather_Dashboard/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/MarcoTorr/Weather_Dashboard';">
+                                        Visit Repository
+                                    </button>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Password Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                      
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/PassGen.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Developed a tool that Generates a random Password according to the parameters specified (Length, special characters, etc).</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://marcotorr.github.io/PasswordGenerator/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/MarcoTorr/PasswordGenerator';">
+                                        Visit Repository
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Day Organizer</h2>
+
+                                    <!-- Portfolio Modal - Title-->
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                       
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/DaySchedule.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Developed a tool to localstore events for the day, which works as a day organizer.</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://marcotorr.github.io/Day_Organizer/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/MarcoTorr/Day_Organizer';">
+                                        Visit Repository
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Horiseon Website</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                      
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HoriseonWebsite.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Developed a first website test, applying the knowldge from my first month in coding.</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://marcotorr.github.io/Code-Refactor-V2/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/MarcoTorr/Code-Refactor-V2';">
+                                        Visit Repository
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Simple Quiz</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Quiz.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Developed a simple quiz using javascript.</p>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://marcotorr.github.io/Quiz_Java/';">
+                                        Visit Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="window.location.href='https://github.com/MarcoTorr/Quiz_Java';">
+                                        Visit Repository
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
